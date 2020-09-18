@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  background-color: #000000;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+/* header */
+.header {
+  background-image: url(../webdev/assets/Header/bg-image-wrapper.png);
+  height: 723px;
+  width: 1600px;
+  margin: 21px auto 0px auto;
+  padding: 0px 40px;
+  color: white;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+}
+.header-logo-table {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ width: 39%;
+}
+.header-title-text-btn {
+  height: 552px;
+  padding: 149px 0px 0px 0px;
+}
+.header-icons {
+  display: flex;
+}
+.header-item-1 {
+  margin: 2px 26px 0px 15px;
+}
+.header-item-2 {
+  margin: 2px 6px 0px 2px;
+}
+.header-item-3 {
+  margin: 2px 17px 0px 23px;
+}
+.header-item-4 {
+  margin: 2px 14px 0px 17px;
+}
+.header-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+}
+.header-btn {
+  padding: 15px 47px;
+  background: #00afdb;
+  border: 0;
+}
+/* design */
+.design {
+  height: 821px;
+  width: 1600px;
+  background-color: #ffffff;
+}
+/* community */
+.community {
+  height: 504px;
+  width: 1600px;
+  background-color: #f5f6f7;
+}
+/* implement */
+.implement {
+  height: 842px;
+  width: 1600px;
+  background-color: #ffffff;
+}
+/* sign */
+.sign {
+  height: 598px;
+  width: 1600px;
+  background-image: url(../webdev/assets/Input/pexels-christina-morillo-1181675\ 1.jpg);
+  margin: 0 auto;
+  padding: 0px 40px;
+}
+/* download */
+.download {
+  width: 1600px;
+  height: 468px;
+
+  background: #f5f6f7;
+}
+/* apple */
+.apple {
+  width: 1600px;
+  height: 468px;
+
+  background: #f5f6f7;
+}
+/* footer */
+.footer {
+  width: 1600px;
+  height: 184px;
+
+  background: #000000;
+}
